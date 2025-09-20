@@ -14,7 +14,7 @@ export class MessageProcessor {
 
       console.log(message)
       // Primero envía a Lambda
-      await axios.post(process.env.LAMBDA_URL!, message);
+      //  await axios.post(process.env.LAMBDA_URL!, message);
 
       // Luego guarda en el repositorio
       // await this.messageRepo.save(message);
